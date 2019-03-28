@@ -1,7 +1,5 @@
 // vanilla
-import StateContainer from "./index";
-
-const data = [
+export const data = [
   {
     id: 1,
     name: "Axe",

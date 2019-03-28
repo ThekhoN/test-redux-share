@@ -15,8 +15,8 @@ mockFetch(true)
     } else {
       console.log("success: ", responseData);
       store.dispatch({
-        type: UPDATE_DATA
-        // payload: responseData
+        type: UPDATE_DATA,
+        payload: responseData
       });
     }
   })

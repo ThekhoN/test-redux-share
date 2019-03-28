@@ -1,4 +1,4 @@
-import UPDATE_DATA from "./actions";
+import {UPDATE_DATA} from "./actions";
 
 const initialState = {
   data: [{ id: 0, name: "Noob0K" }],
@@ -10,7 +10,6 @@ const initialState = {
 const data = (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_DATA:
-      console.log("UPDATE_DATA triggered");
       return {
         ...state,
         data: action.payload
